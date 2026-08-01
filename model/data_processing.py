@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler , OneHotEncoder , OrdinalEncoder
+import joblib
 
 
 
@@ -105,6 +106,7 @@ df.drop(
 )
 
 
+
 #scaling  the numerical values 
 scaler  = StandardScaler() 
 
@@ -121,6 +123,9 @@ numeric_features =[
 df[numeric_features] = scaler.fit_transform(
     df[numeric_features]
 )
+
+
+joblib.dump(scaler, "./models/scaler.pkl")
 
 #one hot encoding the categorical values
 
@@ -148,7 +153,7 @@ encoded_df = pd.DataFrame(
         categorical_features
     )
 )
-
+joblib.dump(encoder, "./models/encoder.pkl")
 df.drop(
     columns=categorical_features,
     inplace=True
@@ -160,10 +165,18 @@ df = pd.concat([
 ] , axis = 1)
 
 
+feature_columns = df.columns.tolist()
+
+joblib.dump(
+    feature_columns,
+    "./models/features.pkl"
+)
 
 df.to_csv(
     "./data/processed_features.csv",
     index=False
 )
 
-
+print("Preprocessing completed")
+print(df.head())
+print(feature_columns)
