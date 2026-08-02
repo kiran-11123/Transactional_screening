@@ -1,1 +1,1 @@
-{"root":["./src/index.ts","./src/config/mongoose.config.ts","./src/config/transactions.schema.ts","./src/controllers/transaction.controller.ts","./src/routes/transaction.routes.ts","./src/utils/logging.service.ts"],"version":"5.8.3"}
+{"root":["./src/index.ts","./src/config/mongoose.config.ts","./src/config/transactions.schema.ts","./src/controllers/transaction.controller.ts","./src/routes/transaction.routes.ts","./src/services/transaction.service.ts","./src/utils/logging.service.ts"],"version":"5.8.3"}
