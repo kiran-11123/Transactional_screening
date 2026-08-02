@@ -3,6 +3,7 @@ import dotenv from 'dotenv'
 import cors from 'cors'
 import logger from './utils/logging.service.js';
 import ConnectDB from './config/mongoose.config.js';
+import transaction_router from './routes/transaction.routes.js';
 dotenv.config();
 
 
@@ -14,6 +15,7 @@ app.use(cors())
 await ConnectDB();
 
 
+
 app.get("/health" , (req,res)=>{
     logger.info('HealthCheck API is running')
      res.status(200).json({
@@ -23,6 +25,7 @@ app.get("/health" , (req,res)=>{
 
 
 
+app.use("/api/transaction" , transaction_router);
 
 
 

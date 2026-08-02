@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import logger from './utils/logging.service.js';
 import ConnectDB from './config/mongoose.config.js';
+import transaction_router from './routes/transaction.routes.js';
 dotenv.config();
 const PORT = process.env.PORT || 5000;
 const app = express();
@@ -15,6 +16,7 @@ app.get("/health", (req, res) => {
         message: 'Transaction screening service is running'
     });
 });
+app.use("/api/transaction", transaction_router);
 app.listen(PORT, () => {
     logger.info(`Screening service is running on port ${PORT}`);
     console.log(`Screening service is running on port ${PORT}`);
