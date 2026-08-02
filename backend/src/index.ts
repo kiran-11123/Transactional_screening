@@ -6,6 +6,8 @@ import ConnectDB from './config/mongoose.config.js';
 import transaction_router from './routes/transaction.routes.js';
 import admin_router from './routes/admin.register.routes.js';
 import cookieParser  from 'cookie-parser'
+import api_key_create_router from './routes/api.key.routes.js';
+import public_end_point_router from './routes/public.end.point.routes.js';
 
 dotenv.config();
 
@@ -31,8 +33,8 @@ app.get("/health" , (req,res)=>{
 
 app.use("/api/transaction" , transaction_router);
 app.use("/api/admin" , admin_router);
-
-
+app.use("/api/api-key" , api_key_create_router);
+app.use("/api/public" , public_end_point_router);
 
 
 

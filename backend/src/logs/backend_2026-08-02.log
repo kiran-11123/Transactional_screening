@@ -58,3 +58,15 @@
 {"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:20:54.923Z"}
 {"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:21:05.795Z"}
 {"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:21:05.806Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:21:12.760Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:21:12.771Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:28:29.983Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:28:29.993Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:44:15.323Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:44:15.335Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:47:11.503Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:47:11.523Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:47:20.483Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:47:20.499Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:47:44.061Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:47:44.078Z"}

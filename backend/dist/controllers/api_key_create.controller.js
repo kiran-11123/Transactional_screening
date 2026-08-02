@@ -5,7 +5,9 @@ export const api_key_create_controller = async (req, res) => {
     logger.info('API key creation request received to controller');
     try {
         const idempotent_key = crypto.randomUUID();
-        const result = await api_key_create_service(idempotent_key);
+        //@ts-ignore
+        const admin_email = req.user.email;
+        const result = await api_key_create_service(idempotent_key, admin_email);
         logger.info('API key creation result', { result: result });
         return res.status(200).json({
             message: 'API key created successfully',
@@ -14,6 +16,12 @@ export const api_key_create_controller = async (req, res) => {
     }
     catch (er) {
         logger.error('Error in API key creation', { error: er });
+        if (er.message === 'API Key for this mail is already exists') {
+            return res.status(400).json({
+                message: 'API Key for this mail is already exists',
+                error: er.message
+            });
+        }
         return res.status(500).json({
             message: 'Internal server error'
         });
