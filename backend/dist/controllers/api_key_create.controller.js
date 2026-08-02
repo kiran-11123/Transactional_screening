@@ -1,8 +1,22 @@
+import { api_key_create_service } from '../services/api.key.service.js';
 import logger from '../utils/logging.service.js';
-export const api_key_create_controller = (req, res) => {
+import crypto from 'crypto';
+export const api_key_create_controller = async (req, res) => {
+    logger.info('API key creation request received to controller');
     try {
+        const idempotent_key = crypto.randomUUID();
+        const result = await api_key_create_service(idempotent_key);
+        logger.info('API key creation result', { result: result });
+        return res.status(200).json({
+            message: 'API key created successfully',
+            result: idempotent_key
+        });
     }
     catch (er) {
+        logger.error('Error in API key creation', { error: er });
+        return res.status(500).json({
+            message: 'Internal server error'
+        });
     }
 };
 //# sourceMappingURL=api_key_create.controller.js.map
