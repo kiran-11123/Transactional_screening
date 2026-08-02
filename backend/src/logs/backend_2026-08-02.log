@@ -166,3 +166,26 @@
 {"error":{"_message":"outbox validation failed","errors":{"status":{"kind":"enum","message":"`processing` is not a valid enum value for path `status`.","name":"ValidatorError","path":"status","properties":{"enumValues":["pending","processed","failed"],"length":10,"message":"`processing` is not a valid enum value for path `status`.","path":"status","type":"enum","value":"processing"},"value":"processing"}},"message":"outbox validation failed: status: `processing` is not a valid enum value for path `status`.","name":"ValidationError"},"level":"error","message":"Error in public api controller","service":"transaction_screening","timestamp":"2026-08-02T15:29:09.667Z"}
 {"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:29:58.465Z"}
 {"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:29:58.476Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:30:07.780Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:30:07.795Z"}
+{"level":"info","message":"Entered into the publi api controller","service":"transaction_screening","timestamp":"2026-08-02T15:30:11.147Z"}
+{"level":"info","message":"Request for API key validation received in service","service":"transaction_screening","timestamp":"2026-08-02T15:30:11.148Z"}
+{"level":"info","message":"Validation successful for transaction screening request","receiver_customer_id":"CUST_7871","sender_customer_id":"CUST_1191","service":"transaction_screening","timestamp":"2026-08-02T15:30:11.341Z"}
+{"level":"info","message":"Transaction service called with data","receiver_customer_id":"CUST_7871","sender_customer_id":"CUST_1191","service":"transaction_screening","timestamp":"2026-08-02T15:30:11.342Z"}
+{"level":"info","message":"Transaction data saved successfully","receiver_customer_id":"CUST_7871","sender_customer_id":"CUST_1191","service":"transaction_screening","timestamp":"2026-08-02T15:30:11.486Z"}
+{"level":"info","message":"Transaction screened successfully","result":"Manual Investigation","sender_customer_id":"CUST_1191","service":"transaction_screening","timestamp":"2026-08-02T15:30:12.068Z"}
+{"level":"info","message":"Transaction screening result","result":"Manual Investigation","service":"transaction_screening","timestamp":"2026-08-02T15:30:12.069Z"}
+{"level":"info","message":"Entered into the publi api controller","service":"transaction_screening","timestamp":"2026-08-02T15:31:45.943Z"}
+{"level":"info","message":"Request for API key validation received in service","service":"transaction_screening","timestamp":"2026-08-02T15:31:45.949Z"}
+{"level":"info","message":"Validation successful for transaction screening request","receiver_customer_id":"CUST_3871","sender_customer_id":"CUST_4191","service":"transaction_screening","timestamp":"2026-08-02T15:31:46.105Z"}
+{"level":"info","message":"Transaction service called with data","receiver_customer_id":"CUST_3871","sender_customer_id":"CUST_4191","service":"transaction_screening","timestamp":"2026-08-02T15:31:46.108Z"}
+{"level":"info","message":"Transaction data saved successfully","receiver_customer_id":"CUST_3871","sender_customer_id":"CUST_4191","service":"transaction_screening","timestamp":"2026-08-02T15:31:46.401Z"}
+{"level":"info","message":"Transaction screened successfully","result":"False Positive","sender_customer_id":"CUST_4191","service":"transaction_screening","timestamp":"2026-08-02T15:31:46.690Z"}
+{"level":"info","message":"Transaction screening result","result":"False Positive","service":"transaction_screening","timestamp":"2026-08-02T15:31:46.691Z"}
+{"level":"info","message":"Entered into the publi api controller","service":"transaction_screening","timestamp":"2026-08-02T15:32:21.909Z"}
+{"level":"info","message":"Request for API key validation received in service","service":"transaction_screening","timestamp":"2026-08-02T15:32:21.909Z"}
+{"level":"info","message":"Validation successful for transaction screening request","receiver_customer_id":"CUST_5871","sender_customer_id":"CUST_9191","service":"transaction_screening","timestamp":"2026-08-02T15:32:22.033Z"}
+{"level":"info","message":"Transaction service called with data","receiver_customer_id":"CUST_5871","sender_customer_id":"CUST_9191","service":"transaction_screening","timestamp":"2026-08-02T15:32:22.034Z"}
+{"level":"info","message":"Transaction data saved successfully","receiver_customer_id":"CUST_5871","sender_customer_id":"CUST_9191","service":"transaction_screening","timestamp":"2026-08-02T15:32:22.157Z"}
+{"level":"info","message":"Transaction screened successfully","result":"False Positive","sender_customer_id":"CUST_9191","service":"transaction_screening","timestamp":"2026-08-02T15:32:22.381Z"}
+{"level":"info","message":"Transaction screening result","result":"False Positive","service":"transaction_screening","timestamp":"2026-08-02T15:32:22.382Z"}
