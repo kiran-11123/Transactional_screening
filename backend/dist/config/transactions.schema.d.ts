@@ -3,8 +3,8 @@ declare const transaction_model: mongoose.Model<{
     sender_customer_id: string;
     receiver_customer_id: string;
     amount: number;
-    country_origin: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
-    country_destination: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
+    country_origin: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
+    country_destination: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
     result: string;
 } & mongoose.DefaultTimestampProps, {}, {}, {
     id: string;
@@ -12,8 +12,8 @@ declare const transaction_model: mongoose.Model<{
     sender_customer_id: string;
     receiver_customer_id: string;
     amount: number;
-    country_origin: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
-    country_destination: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
+    country_origin: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
+    country_destination: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
     result: string;
 } & mongoose.DefaultTimestampProps, {
     id: string;
@@ -23,8 +23,8 @@ declare const transaction_model: mongoose.Model<{
     sender_customer_id: string;
     receiver_customer_id: string;
     amount: number;
-    country_origin: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
-    country_destination: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
+    country_origin: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
+    country_destination: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
     result: string;
 } & mongoose.DefaultTimestampProps & {
     _id: mongoose.Types.ObjectId;
@@ -38,15 +38,15 @@ declare const transaction_model: mongoose.Model<{
     sender_customer_id: string;
     receiver_customer_id: string;
     amount: number;
-    country_origin: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
-    country_destination: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
+    country_origin: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
+    country_destination: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
     result: string;
 } & mongoose.DefaultTimestampProps, mongoose.Document<unknown, {}, {
     sender_customer_id: string;
     receiver_customer_id: string;
     amount: number;
-    country_origin: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
-    country_destination: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
+    country_origin: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
+    country_destination: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
     result: string;
 } & mongoose.DefaultTimestampProps, {
     id: string;
@@ -56,8 +56,8 @@ declare const transaction_model: mongoose.Model<{
     sender_customer_id: string;
     receiver_customer_id: string;
     amount: number;
-    country_origin: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
-    country_destination: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
+    country_origin: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
+    country_destination: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
     result: string;
 } & mongoose.DefaultTimestampProps & {
     _id: mongoose.Types.ObjectId;
@@ -66,27 +66,27 @@ declare const transaction_model: mongoose.Model<{
 }, "id"> & mongoose.HydratedDocumentOverrides<{
     id: string;
 }>, unknown, {
+    createdAt: NativeDate;
+    updatedAt: NativeDate;
     sender_customer_id: string;
     receiver_customer_id: string;
     amount: number;
-    country_origin: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
-    country_destination: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
+    country_origin: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
+    country_destination: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
     result: string;
-    createdAt: NativeDate;
-    updatedAt: NativeDate;
 } & {
     _id: mongoose.Types.ObjectId;
 } & {
     __v: number;
 }>, {
+    createdAt: NativeDate;
+    updatedAt: NativeDate;
     sender_customer_id: string;
     receiver_customer_id: string;
     amount: number;
-    country_origin: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
-    country_destination: "USA" | "India" | "UK" | "Germany" | "France" | "Canada" | "Australia" | "Singapore" | "UAE" | "Brazil";
+    country_origin: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
+    country_destination: "Australia" | "Brazil" | "Canada" | "France" | "Germany" | "India" | "Singapore" | "UAE" | "UK" | "USA";
     result: string;
-    createdAt: NativeDate;
-    updatedAt: NativeDate;
 } & {
     _id: mongoose.Types.ObjectId;
 } & {
