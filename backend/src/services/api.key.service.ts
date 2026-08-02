@@ -24,3 +24,19 @@ export const api_key_create_service = async(idempotent_key: string)=>{
         throw er;
     }
 }
+
+
+export const delete_api_key_service = async(idempotent_key: string)=>{
+
+    logger.info(`Request for API key deletion received in service`)
+    try{
+        const result = await api_key_model.deleteOne({api_key : idempotent_key});
+        logger.info(`API key deleted successfully in service`, { result: result });
+        return true;
+    }   
+
+    catch(er){
+        logger.error(`Error in API key deletion`, { error: er });
+        throw er;
+    }
+}

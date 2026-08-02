@@ -42,3 +42,19 @@
 {"level":"info","message":"Transaction data saved successfully","receiver_customer_id":"CUST_7871","sender_customer_id":"CUST_1191","service":"transaction_screening","timestamp":"2026-08-02T11:30:41.444Z"}
 {"level":"info","message":"Transaction screened successfully","result":"Manual Investigation","sender_customer_id":"CUST_1191","service":"transaction_screening","timestamp":"2026-08-02T11:30:41.643Z"}
 {"level":"info","message":"Transaction screening result","result":"Manual Investigation","service":"transaction_screening","timestamp":"2026-08-02T11:30:41.644Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:18:13.620Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:18:13.646Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:19:06.175Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:19:06.197Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:19:15.643Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:19:15.653Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:19:36.844Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:19:37.003Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:19:55.389Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:19:55.400Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:20:45.110Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:20:45.131Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:20:54.916Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:20:54.923Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:21:05.795Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:21:05.806Z"}

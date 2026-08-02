@@ -40,7 +40,7 @@ export const admin_signin_model = async (email, password) => {
             logger.warn(`Incorrect password attempt for admin sign-in`, { email });
             throw new Error('email or password is wrong');
         }
-        const token = jwt.sign({ email: check_user.email, username: check_user.username }, process.env.JWT_SECRET_KEY, { expiresIn: '1h' });
+        const token = jwt.sign({ email: check_user.email, username: check_user.username }, process.env.JWT_SECRET_KEY, { expiresIn: '15m' });
         logger.info(`Admin sign-in successful`, { email });
         return token;
     }
