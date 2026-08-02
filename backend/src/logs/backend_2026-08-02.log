@@ -70,3 +70,99 @@
 {"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:47:20.499Z"}
 {"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:47:44.061Z"}
 {"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:47:44.078Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T12:48:05.655Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T12:48:05.670Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:00:56.742Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:00:56.758Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:01:24.025Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:01:24.039Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:05:40.382Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:05:40.540Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:06:15.781Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:06:15.798Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:07:00.783Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:07:00.795Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:07:15.994Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:07:16.007Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:07:24.856Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:07:24.888Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:07:50.523Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:07:50.543Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:10:16.460Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:10:16.469Z"}
+{"level":"info","message":"Admin registration request received to controller","service":"transaction_screening","timestamp":"2026-08-02T15:10:48.460Z"}
+{"email":"kiran.sadara6730@gmail.com","level":"info","message":"Request for admin registration received in service","service":"transaction_screening","timestamp":"2026-08-02T15:10:48.460Z","username":"qhruiefvgd"}
+{"email":"kiran.sadara6730@gmail.com","level":"info","message":"Saving new admin user to the database","service":"transaction_screening","timestamp":"2026-08-02T15:10:48.611Z","username":"qhruiefvgd"}
+{"email":"kiran.sadara6730@gmail.com","level":"info","message":"New admin user saved successfully","service":"transaction_screening","timestamp":"2026-08-02T15:10:48.668Z","username":"qhruiefvgd"}
+{"level":"info","message":"Admin registration result","result":true,"service":"transaction_screening","timestamp":"2026-08-02T15:10:48.669Z"}
+{"level":"info","message":"Admin registration request received to controller","service":"transaction_screening","timestamp":"2026-08-02T15:11:16.985Z"}
+{"email":"kiran.sadara6730@gmail.com","level":"warn","message":"Validation error in admin registration request","service":"transaction_screening","timestamp":"2026-08-02T15:11:16.985Z"}
+{"level":"info","message":"Admin sign-in request received to controller","service":"transaction_screening","timestamp":"2026-08-02T15:11:28.019Z"}
+{"email":"kiran.sadara6730@gmail.com","level":"info","message":"Request for admin sign-in received in service","service":"transaction_screening","timestamp":"2026-08-02T15:11:28.020Z"}
+{"email":"kiran.sadara6730@gmail.com","level":"info","message":"Admin sign-in successful","service":"transaction_screening","timestamp":"2026-08-02T15:11:28.194Z"}
+{"level":"info","message":"Admin sign-in result","service":"transaction_screening","timestamp":"2026-08-02T15:11:28.194Z"}
+{"level":"warn","message":"Authentication failed: token not found","path":"/create","service":"transaction_screening","timestamp":"2026-08-02T15:11:36.394Z"}
+{"level":"info","message":"Admin sign-in request received to controller","service":"transaction_screening","timestamp":"2026-08-02T15:13:48.648Z"}
+{"email":"kiran.sadara6730@gmail.com","level":"info","message":"Request for admin sign-in received in service","service":"transaction_screening","timestamp":"2026-08-02T15:13:48.649Z"}
+{"email":"kiran.sadara6730@gmail.com","level":"info","message":"Admin sign-in successful","service":"transaction_screening","timestamp":"2026-08-02T15:13:48.778Z"}
+{"level":"info","message":"Admin sign-in result","service":"transaction_screening","timestamp":"2026-08-02T15:13:48.778Z"}
+{"level":"warn","message":"Authentication failed: token not found","path":"/create","service":"transaction_screening","timestamp":"2026-08-02T15:14:04.872Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:16:03.902Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:16:03.924Z"}
+{"level":"info","message":"Admin sign-in request received to controller","service":"transaction_screening","timestamp":"2026-08-02T15:16:06.943Z"}
+{"email":"kiran.sadara6730@gmail.com","level":"info","message":"Request for admin sign-in received in service","service":"transaction_screening","timestamp":"2026-08-02T15:16:06.945Z"}
+{"email":"kiran.sadara6730@gmail.com","level":"info","message":"Admin sign-in successful","service":"transaction_screening","timestamp":"2026-08-02T15:16:07.131Z"}
+{"level":"info","message":"Admin sign-in result","service":"transaction_screening","timestamp":"2026-08-02T15:16:07.132Z"}
+{"error":{"code":"ERR_HTTP_HEADERS_SENT"},"level":"error","message":"Error in admin sign-in","service":"transaction_screening","timestamp":"2026-08-02T15:16:07.137Z"}
+{"error":{"message":"secret or public key must be provided","name":"JsonWebTokenError"},"level":"error","message":"Authentication error","path":"/create","service":"transaction_screening","timestamp":"2026-08-02T15:16:12.961Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:17:12.164Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:17:12.173Z"}
+{"level":"info","message":"Authentication successful","path":"/create","service":"transaction_screening","timestamp":"2026-08-02T15:17:15.254Z"}
+{"level":"info","message":"API key creation request received to controller","service":"transaction_screening","timestamp":"2026-08-02T15:17:15.255Z"}
+{"level":"info","message":"Request for API creation received in service","service":"transaction_screening","timestamp":"2026-08-02T15:17:15.256Z"}
+{"error":{"_message":"api_key validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required"}}},"message":"api_key validation failed: email: Path `email` is required.","name":"ValidationError"},"level":"error","message":"Error in API key creation","service":"transaction_screening","timestamp":"2026-08-02T15:17:15.425Z"}
+{"error":{"_message":"api_key validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required"}}},"message":"api_key validation failed: email: Path `email` is required.","name":"ValidationError"},"level":"error","message":"Error in API key creation","service":"transaction_screening","timestamp":"2026-08-02T15:17:15.426Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:20:19.033Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:20:19.044Z"}
+{"level":"info","message":"Authentication successful","path":"/create","service":"transaction_screening","timestamp":"2026-08-02T15:20:26.689Z"}
+{"level":"info","message":"API key creation request received to controller","service":"transaction_screening","timestamp":"2026-08-02T15:20:26.690Z"}
+{"level":"info","message":"Request for API creation received in service","service":"transaction_screening","timestamp":"2026-08-02T15:20:26.698Z"}
+{"error":{"_message":"api_key validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required"}}},"message":"api_key validation failed: email: Path `email` is required.","name":"ValidationError"},"level":"error","message":"Error in API key creation","service":"transaction_screening","timestamp":"2026-08-02T15:20:26.918Z"}
+{"error":{"_message":"api_key validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required"}}},"message":"api_key validation failed: email: Path `email` is required.","name":"ValidationError"},"level":"error","message":"Error in API key creation","service":"transaction_screening","timestamp":"2026-08-02T15:20:26.919Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:22:00.962Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:22:00.976Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:22:47.632Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:22:47.641Z"}
+{"level":"info","message":"Authentication successful","path":"/create","service":"transaction_screening","timestamp":"2026-08-02T15:22:58.556Z"}
+{"level":"info","message":"API key creation request received to controller","service":"transaction_screening","timestamp":"2026-08-02T15:22:58.557Z"}
+{"level":"info","message":"Request for API creation received in service","service":"transaction_screening","timestamp":"2026-08-02T15:22:58.558Z"}
+{"error":{"_message":"api_key validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required"}}},"message":"api_key validation failed: email: Path `email` is required.","name":"ValidationError"},"level":"error","message":"Error in API key creation","service":"transaction_screening","timestamp":"2026-08-02T15:22:58.699Z"}
+{"error":{"_message":"api_key validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required"}}},"message":"api_key validation failed: email: Path `email` is required.","name":"ValidationError"},"level":"error","message":"Error in API key creation","service":"transaction_screening","timestamp":"2026-08-02T15:22:58.699Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:23:43.822Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:23:43.837Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:23:50.463Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:23:50.482Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:24:16.079Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:24:16.117Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:24:42.598Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:24:42.628Z"}
+{"level":"info","message":"Authentication successful","path":"/create","service":"transaction_screening","timestamp":"2026-08-02T15:24:50.775Z"}
+{"level":"info","message":"API key creation request received to controller","service":"transaction_screening","timestamp":"2026-08-02T15:24:50.775Z"}
+{"level":"info","message":"Request for API creation received in service","service":"transaction_screening","timestamp":"2026-08-02T15:24:50.776Z"}
+{"error":{"_message":"api_key validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required"}}},"message":"api_key validation failed: email: Path `email` is required.","name":"ValidationError"},"level":"error","message":"Error in API key creation","service":"transaction_screening","timestamp":"2026-08-02T15:24:50.932Z"}
+{"error":{"_message":"api_key validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required"}}},"message":"api_key validation failed: email: Path `email` is required.","name":"ValidationError"},"level":"error","message":"Error in API key creation","service":"transaction_screening","timestamp":"2026-08-02T15:24:50.933Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:26:35.275Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:26:35.290Z"}
+{"level":"info","message":"Authentication successful","path":"/create","service":"transaction_screening","timestamp":"2026-08-02T15:26:39.945Z"}
+{"level":"info","message":"API key creation request received to controller","service":"transaction_screening","timestamp":"2026-08-02T15:26:39.946Z"}
+{"level":"info","message":"Request for API creation received in service","service":"transaction_screening","timestamp":"2026-08-02T15:26:39.948Z"}
+{"level":"info","message":"API key created successfully in service","service":"transaction_screening","timestamp":"2026-08-02T15:26:40.195Z"}
+{"level":"info","message":"API key creation result","result":true,"service":"transaction_screening","timestamp":"2026-08-02T15:26:40.196Z"}
+{"level":"info","message":"Entered into the publi api controller","service":"transaction_screening","timestamp":"2026-08-02T15:29:09.336Z"}
+{"level":"info","message":"Request for API key validation received in service","service":"transaction_screening","timestamp":"2026-08-02T15:29:09.337Z"}
+{"level":"info","message":"Validation successful for transaction screening request","receiver_customer_id":"CUST_7871","sender_customer_id":"CUST_1191","service":"transaction_screening","timestamp":"2026-08-02T15:29:09.487Z"}
+{"level":"info","message":"Transaction service called with data","receiver_customer_id":"CUST_7871","sender_customer_id":"CUST_1191","service":"transaction_screening","timestamp":"2026-08-02T15:29:09.488Z"}
+{"error":{"_message":"outbox validation failed","errors":{"status":{"kind":"enum","message":"`processing` is not a valid enum value for path `status`.","name":"ValidatorError","path":"status","properties":{"enumValues":["pending","processed","failed"],"length":10,"message":"`processing` is not a valid enum value for path `status`.","path":"status","type":"enum","value":"processing"},"value":"processing"}},"message":"outbox validation failed: status: `processing` is not a valid enum value for path `status`.","name":"ValidationError"},"level":"error","message":"Error in transaction service","service":"transaction_screening","timestamp":"2026-08-02T15:29:09.611Z"}
+{"error":{"_message":"outbox validation failed","errors":{"status":{"kind":"enum","message":"`processing` is not a valid enum value for path `status`.","name":"ValidatorError","path":"status","properties":{"enumValues":["pending","processed","failed"],"length":10,"message":"`processing` is not a valid enum value for path `status`.","path":"status","type":"enum","value":"processing"},"value":"processing"}},"message":"outbox validation failed: status: `processing` is not a valid enum value for path `status`.","name":"ValidationError"},"level":"error","message":"Error in public api controller","service":"transaction_screening","timestamp":"2026-08-02T15:29:09.667Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"transaction_screening","timestamp":"2026-08-02T15:29:58.465Z"}
+{"level":"info","message":"Screening service is running on port 5000","service":"transaction_screening","timestamp":"2026-08-02T15:29:58.476Z"}

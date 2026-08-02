@@ -2,6 +2,9 @@ import type { Request , Response } from "express";
 import logger from "../utils/logging.service.js";
 import { api_key_validation_service } from "../services/api.key.service.js";
 import { transaction_service } from "../services/transaction.service.js";
+import crypto from "crypto";
+
+
 
 export const public_api_with_key = async(req : Request , res :Response)=>{
     
@@ -24,8 +27,9 @@ export const public_api_with_key = async(req : Request , res :Response)=>{
                 message : 'Invalid API key',
             })
         }
- logger.info('Validation successful for transaction screening request', { sender_customer_id: sender_customer_id  , receiver_customer_id: receiver_customer_id  });
-        const result = await transaction_service({sender_customer_id , receiver_customer_id , amount , country_origin , country_destination})
+        const idempotent_key = crypto.randomUUID();
+        logger.info('Validation successful for transaction screening request', { sender_customer_id: sender_customer_id  , receiver_customer_id: receiver_customer_id  });
+        const result = await transaction_service({sender_customer_id , receiver_customer_id , amount , country_origin , country_destination , idempotent_key})
         logger.info('Transaction screening result', { result: result });
         return res.status(200).json({
             message : 'Transaction screening result',

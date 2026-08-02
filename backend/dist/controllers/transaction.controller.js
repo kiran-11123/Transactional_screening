@@ -1,6 +1,7 @@
 import logger from "../utils/logging.service.js";
 import { transaction_service } from "../services/transaction.service.js";
 import zod from "zod";
+import crypto from "crypto";
 const checking_schema = zod.object({
     sender_customer_id: zod.string().min(1, "sender_customer_id is required"),
     receiver_customer_id: zod.string().min(1, "receiver_customer_id is required"),
@@ -19,6 +20,7 @@ export const screening_controller = async (req, res) => {
             country_origin,
             country_destination
         });
+        const idempotent_key = crypto.randomUUID();
         if (error) {
             logger.error('Validation error in transaction screening request', { error: error });
             return res.status(400).json({
@@ -27,7 +29,7 @@ export const screening_controller = async (req, res) => {
             });
         }
         logger.info('Validation successful for transaction screening request', { sender_customer_id: data.sender_customer_id, receiver_customer_id: data.receiver_customer_id });
-        const result = await transaction_service({ sender_customer_id, receiver_customer_id, amount, country_origin, country_destination });
+        const result = await transaction_service({ sender_customer_id, receiver_customer_id, amount, country_origin, country_destination, idempotent_key });
         logger.info('Transaction screening result', { result: result });
         return res.status(200).json({
             message: 'Transaction screening result',

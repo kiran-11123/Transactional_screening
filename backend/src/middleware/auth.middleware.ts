@@ -4,12 +4,12 @@ dotenv.config();
 import type { Request, Response, NextFunction } from 'express';
 import type { JwtPayload } from "jsonwebtoken";
 import logger from '../utils/logging.service.js';
-
 interface UserPayload extends JwtPayload {
+    user_id: string;
     email: string;
 }
 
-const JWT_SECRET = process.env.JWT_SECRET as string;
+const JWT_SECRET = process.env.JWT_SECRET_KEY as string;
 
 const Authentication_token = (req: Request, res: Response, next: NextFunction) => {
     const token = req.cookies?.token;
@@ -31,7 +31,7 @@ const Authentication_token = (req: Request, res: Response, next: NextFunction) =
             });
         }
         
-        //@ts-ignore
+     
         req.user = decoded;
         logger.info('Authentication successful', { userId: decoded.user_id, path: req.path });
         next();

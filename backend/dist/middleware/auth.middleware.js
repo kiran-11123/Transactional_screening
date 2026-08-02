@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 import jwt from 'jsonwebtoken';
 dotenv.config();
 import logger from '../utils/logging.service.js';
-const JWT_SECRET = process.env.JWT_SECRET;
+const JWT_SECRET = process.env.JWT_SECRET_KEY;
 const Authentication_token = (req, res, next) => {
     const token = req.cookies?.token;
     if (!token) {
@@ -19,7 +19,6 @@ const Authentication_token = (req, res, next) => {
                 message: "Invalid Token payload."
             });
         }
-        //@ts-ignore
         req.user = decoded;
         logger.info('Authentication successful', { userId: decoded.user_id, path: req.path });
         next();

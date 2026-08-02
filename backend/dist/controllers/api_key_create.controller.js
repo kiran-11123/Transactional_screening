@@ -5,8 +5,12 @@ export const api_key_create_controller = async (req, res) => {
     logger.info('API key creation request received to controller');
     try {
         const idempotent_key = crypto.randomUUID();
-        //@ts-ignore
-        const admin_email = req.user.email;
+        // ensure req.user and email exist to satisfy strict checks
+        const admin_email = req.user?.email;
+        if (!admin_email) {
+            logger.warn('Missing user email in request');
+            return res.status(401).json({ message: 'Unauthorized' });
+        }
         const result = await api_key_create_service(idempotent_key, admin_email);
         logger.info('API key creation result', { result: result });
         return res.status(200).json({

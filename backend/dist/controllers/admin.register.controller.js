@@ -39,6 +39,14 @@ export const admin_signin_controller = async (req, res) => {
         }
         const result = await admin_signin_model(email, password);
         logger.info('Admin sign-in result');
+        res.cookie("token", result, {
+            httpOnly: true,
+            secure: false,
+            sameSite: "lax"
+        });
+        res.json({
+            message: "Login success"
+        });
         return res.status(200).json({
             message: 'Admin sign-in successful',
             token: result,

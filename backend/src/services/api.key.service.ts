@@ -7,6 +7,8 @@ export const api_key_create_service = async(idempotent_key: string , email :stri
     logger.info(`Request for API creation received in service`)
     try{
 
+        console.log('Email received for API key creation:', email); // Debugging line
+
         const check_email = await api_key_model.findOne({email : email});
 
         if(check_email){
@@ -17,7 +19,8 @@ export const api_key_create_service = async(idempotent_key: string , email :stri
         const hashed_api_key = await bcrypt.hash(idempotent_key, 10);
         
         const new_api_key = new api_key_model({
-            api_key : hashed_api_key
+            api_key : hashed_api_key,
+            email : email
         })
 
         const result = await new_api_key.save();
